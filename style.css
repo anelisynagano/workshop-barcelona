@@ -1,0 +1,74 @@
+body {
+    color: rgb(107, 107, 107);
+    font-family: 'PT Sans', sans-serif;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(70, 0, 70);
+}
+
+hr {
+    border: 2px solid rgb(70, 0, 70);
+}
+
+.background {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.left-container {
+    width: 33%;
+}
+
+.photo {
+    width: 33%;
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+img {
+    width: 200px;
+    border-radius: 25%;
+}
+
+.name {
+    width: 64%;
+    text-align: left;
+    margin: 5% 5% 5% 0%;
+}
+
+.name h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.name-content {
+    margin: 5%;
+}
+
+
+.right-container {
+    width: 64%;
+}
+
+.align-right {
+    text-align: right;
+    margin: 5%;
+}
+
+.align-left {
+    text-align: left;
+    margin: 5%;
+}
+
+.align-left h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
