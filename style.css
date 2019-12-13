@@ -72,3 +72,16 @@ img {
 .align-left h3 {
     font-family: 'PT Sans Narrow', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
