@@ -74,14 +74,17 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
-    .header {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .photo {
+    .container, .header {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;
     }
+
+    .left-container, .right-container, .photo {
+        width: 100%;
+    }
+
+    img {
+        margin: auto;
+    }
+    
 }
